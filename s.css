@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;text-align: center;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: rgb(32, 28, 28);
+
+}
+.flexbox{
+    width: 18%;
+    height: 55%;
+    background: pink;
+    margin-left: 40%;
+    margin-top: 70px;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    
+    align-content: space-between;
+}
+img.image{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+.content{
+    position: absolute;
+    margin-top: 100%;
+}
+p{
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 16px;
+    margin-right: 15px;
+}h5{
+    margin-bottom: 15px;
+}
